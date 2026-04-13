@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  width: 1440px;
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#hero {
+  background-image: url("/11.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 773px;
+  flex-direction: column;
+  background-size: cover;
+}
+header {
+  border: 1px solid red;
+  top: 30px;
+  width: 1201px;
+  padding: 0 118px;
+  background-image: url(11.png);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+.logo {
+  width: 100px;
+  height: 34px;
+}
+.Vector {
+  width: 20px;
+  height: 20px;
+}
+.navContainer {
+  display: flex;
+  width: 1440px;
+  height: 40px;
+  position: fixed;
+  padding: 0 118px;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+}
+.navContainerContainer {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 24px;
+}
+
+.navText {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+.languagechanger {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.herotextcontainer {
+  width: 818;
+  height: 394px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.pure {
+  color: #e8edf2b8;
+  font-size: 80px;
+  font-family: "Bebas Neue" sans-serif;
+  font-weight: 400;
+  margin: 0;
+  height: 80px;
+}
+.awatis {
+  color: #fdfdfefa;
+  font-size: 250px;
+  font-family: "Bebas Neue" sans-serif;
+  font-weight: 400;
+  margin: 0;
+  height: 250px;
+}
+.heroYear {
+}

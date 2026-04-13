@@ -1,0 +1,13 @@
+.navaTextstyle{
+font-size: 18px;
+font-weight: 600;
+font-family:inter ;
+}
+.navaContainer{
+    display: flex;
+    gap: 24px;
+
+}
+.header{
+    background-color: aqua;
+}
