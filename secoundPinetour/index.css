@@ -1,6 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanuman:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   width: 1440px;
   margin: 0 auto;
@@ -28,7 +33,7 @@ body {
 header {
   border: 1px solid red;
   top: 30px;
-  width: 1201px;
+  width: 1440px;
   padding: 0 118px;
   background-image: url(11.png);
   display: flex;
@@ -77,13 +82,15 @@ header {
 .herotextcontainer {
   width: 818;
   height: 394px;
-  margin: auto;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 }
 .pure {
+  width: 618px;
+  height: 80px;
   color: #e8edf2b8;
   font-size: 80px;
   font-family: "Bebas Neue" sans-serif;
@@ -91,11 +98,143 @@ header {
   margin: 0;
   height: 80px;
 }
-.awatis {
+.awaits {
+  height: 250px;
   color: #fdfdfefa;
   font-size: 250px;
   font-family: "Bebas Neue" sans-serif;
   font-weight: 400;
-  margin: 0;
   height: 250px;
+  margin: 0;
 }
+.heroYear {
+  font-family: "Bebas Neue" sans-serif;
+  font-weight: 400;
+  height: 64px;
+  color: #e8edf2b8;
+  font-size: 64px;
+  margin: 0;
+}
+#journey {
+  background-image: url(/background2.png);
+  border: 1px solid red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1440px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+.cardText {
+  font-family:
+    Bebas Neue,
+    sans-serif;
+  font-size: 37px;
+  font-weight: 400;
+  color: #fdfdfecc;
+  text-shadow: 0px 4px 4.9px #000000a6;
+  text-align: center;
+  width: 232px;
+  margin-inline: auto;
+}
+
+#journey .card:hover {
+  filter: brightness(0.8);
+}
+#journey .card1:hover {
+  filter: brightness(0.8);
+}
+#journey .card2:hover {
+  filter: brightness(0.8);
+}
+#journey .card3:hover {
+  filter: brightness(0.8);
+}
+.card {
+  background-image: url(/1.png);
+  height: 370px;
+  width: 275px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+.card1 {
+  background-image: url(/2.png);
+  height: 370px;
+  width: 275px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+.card2 {
+  background-image: url(/3.png);
+  height: 370px;
+  width: 275px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+.card3 {
+  background-image: url(/4.png);
+  height: 370px;
+  width: 275px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+#map {
+  background-image: url(/Roadmap\ image.png);
+  display: flex;
+  align-items: center;
+  width: 1440px;
+  height: 902px;
+  border: 1px solid red;
+  background-size: cover;
+  flex-direction: column;
+}
+.garchig {
+  display: flex;
+  justify-content: end;
+  height: 204px;
+  border: 1px solid red;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.maptext {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 42px;
+  font-family: "Inter";
+}
+.maptext2 {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Inter";
+} 
