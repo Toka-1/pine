@@ -21,7 +21,7 @@ body {
 }
 
 #hero {
-  background-image: url("/11.png");
+  background-image: url("/pine/pine/11.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,7 +116,7 @@ header {
   margin: 0;
 }
 #journey {
-  background-image: url(/background2.png);
+  background-image: url(/pine/pine/background2.png);
   border: 1px solid red;
   background-repeat: no-repeat;
   background-size: cover;
@@ -153,7 +153,7 @@ header {
   filter: brightness(0.8);
 }
 .card {
-  background-image: url(/1.png);
+  background-image: url(/pine/pine/1.png);
   height: 370px;
   width: 275px;
   border-radius: 40px;
@@ -167,7 +167,7 @@ header {
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 .card1 {
-  background-image: url(/2.png);
+  background-image: url(/pine/pine/2.png);
   height: 370px;
   width: 275px;
   border-radius: 40px;
@@ -180,7 +180,7 @@ header {
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 .card2 {
-  background-image: url(/3.png);
+  background-image: url(/pine/pine/3.png);
   height: 370px;
   width: 275px;
   border-radius: 40px;
@@ -193,7 +193,7 @@ header {
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 .card3 {
-  background-image: url(/4.png);
+  background-image: url(/pine/pine/4.png);
   height: 370px;
   width: 275px;
   border-radius: 40px;
@@ -206,7 +206,7 @@ header {
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 #map {
-  background-image: url(/Roadmap\ image.png);
+  background-image: url(/pine/pine/Roadmap\ image.png);
   display: flex;
   align-items: center;
   width: 1440px;
@@ -237,4 +237,288 @@ header {
   font-weight: 400;
   font-size: 24px;
   font-family: "Inter";
-} 
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 800px;
+  padding-top: 80px;
+}
+
+.loc1 {
+  position: absolute;
+  left: 1200px;
+  top: 1600px;
+  opacity: 0;
+}
+.location1:hover .loc1 {
+  opacity: 1;
+}
+.location1:hover {
+  border: solid;
+  border-color: white;
+}
+
+.loc2 {
+  position: absolute;
+  left: 1200px;
+  top: 1600px;
+  opacity: 0;
+}
+.location1:hover .loc2 {
+  opacity: 1;
+}
+.location2:hover {
+  border: solid;
+  border-color: white;
+}
+
+.loc3 {
+  position: absolute;
+  left: 1200px;
+  top: 1600px;
+  opacity: 0;
+}
+.location3:hover .loc3 {
+  opacity: 1;
+}
+.location3:hover {
+  border: solid;
+  border-color: white;
+}
+
+.loc4 {
+  position: absolute;
+  left: 1200px;
+  top: 1600px;
+  opacity: 0;
+}
+.location4:hover .loc4 {
+  opacity: 1;
+}
+.location4:hover {
+  border: solid;
+  border-color: white;
+}
+
+.loc5 {
+  position: absolute;
+  left: 1200px;
+  top: 1600px;
+  opacity: 0;
+}
+.location5:hover .loc5 {
+  opacity: 1;
+}
+.location5:hover {
+  border: solid;
+  border-color: white;
+}
+
+.location1pic {
+  height: 14px;
+  width: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.location2pic {
+  height: 14px;
+  width: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.location3pic {
+  height: 14px;
+  width: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.location4pic {
+  height: 14px;
+  width: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.location5pic {
+  height: 14px;
+  width: 14px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hamtaguuljbga1 {
+  display: flex;
+}
+
+.hamtaguuljbga2 {
+  display: flex;
+}
+
+.hamtaguuljbga3 {
+  display: flex;
+}
+
+.hamtaguuljbga4 {
+  display: flex;
+}
+
+.hamtaguuljbga5 {
+  display: flex;
+}
+.location1 {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #eee9d9;
+  border-radius: 120px;
+  height: 112px;
+  width: 513px;
+}
+
+.location2 {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #8bb8c1cc;
+  border-radius: 120px;
+  height: 112px;
+  width: 513px;
+}
+
+.location3 {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #aad8d7cc;
+  border-radius: 120px;
+  height: 112px;
+  width: 513px;
+}
+
+.location4 {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #8bc0bdcc;
+  border-radius: 120px;
+  height: 112px;
+  width: 513px;
+}
+
+.location5 {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #97cce0cc;
+  border-radius: 120px;
+  height: 112px;
+  width: 513px;
+}
+.location2text1 {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Inter";
+}
+.location2text2 {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Inter";
+  display: flex;
+}
+
+.day1 {
+  font-size: 14;
+  font-family: "Inter";
+  background-color: white;
+  height: 48px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  border-radius: 120px;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-bottom: 30px;
+}
+
+.day2 {
+  font-size: 14;
+  font-family: "Inter";
+  background-color: white;
+  height: 48px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  border-radius: 120px;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-bottom: 30px;
+}
+.day3 {
+  font-size: 14;
+  font-family: "Inter";
+  background-color: white;
+  height: 48px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  border-radius: 120px;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-bottom: 30px;
+}
+.day4 {
+  font-size: 14;
+  font-family: "Inter";
+  background-color: white;
+  height: 48px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  border-radius: 120px;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-bottom: 30px;
+}
+.day5 {
+  font-size: 14;
+  font-family: "Inter";
+  background-color: white;
+  height: 48px;
+  width: 52px;
+  display: flex;
+  justify-content: center;
+  border-radius: 120px;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 400px;
+  margin-bottom: 30px;
+}
+
+#back {
+  background-image: url(/pine/pine/back.png);
+  display: flex;
+  align-items: center;
+  width: 1442px;
+  height: 1120px;
+  border: 1px solid red;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.garchig2 {
+  display: flex;
+  justify-content: end;
+  height: 204px;
+  border: 1px solid red;
+  flex-direction: column;
+  gap: 10px;
+}
