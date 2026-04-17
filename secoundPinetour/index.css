@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
   margin: 0;
@@ -31,7 +31,6 @@ body {
   background-size: cover;
 }
 header {
-  border: 1px solid red;
   top: 30px;
   width: 1440px;
   padding: 0 118px;
@@ -55,7 +54,6 @@ header {
   height: 40px;
   position: fixed;
   padding: 0 118px;
-  border: 1px solid red;
   justify-content: center;
   align-items: center;
 }
@@ -116,8 +114,7 @@ header {
   margin: 0;
 }
 #journey {
-  background-image: url(/pine/pine/background2.png);
-  border: 1px solid red;
+  background-image: url(/background2.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 1440px;
@@ -211,7 +208,6 @@ header {
   align-items: center;
   width: 1440px;
   height: 902px;
-  border: 1px solid red;
   background-size: cover;
   flex-direction: column;
 }
@@ -219,20 +215,24 @@ header {
   display: flex;
   justify-content: end;
   height: 204px;
-  border: 1px solid red;
   flex-direction: column;
   gap: 10px;
 }
 
 .maptext {
   display: flex;
+  width: 1442px;
+  height: 51px;
   justify-content: center;
   font-weight: 600;
   font-size: 42px;
   font-family: "Inter";
+  color: #18181bb2;
 }
 .maptext2 {
   display: flex;
+  width: 1442px;
+  height: 24px;
   justify-content: center;
   font-weight: 400;
   font-size: 24px;
@@ -266,7 +266,7 @@ header {
   top: 1600px;
   opacity: 0;
 }
-.location1:hover .loc2 {
+.location2:hover .loc2 {
   opacity: 1;
 }
 .location2:hover {
@@ -355,69 +355,64 @@ header {
   display: flex;
 }
 
-.hamtaguuljbga2 {
-  display: flex;
-}
-
-.hamtaguuljbga3 {
-  display: flex;
-}
-
-.hamtaguuljbga4 {
-  display: flex;
-}
-
-.hamtaguuljbga5 {
-  display: flex;
-}
 .location1 {
   padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-right: 30px;
   background-color: #eee9d9;
   border-radius: 120px;
   height: 112px;
   width: 513px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 .location2 {
   padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-right: 30px;
   background-color: #8bb8c1cc;
   border-radius: 120px;
   height: 112px;
   width: 513px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 .location3 {
   padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-right: 30px;
   background-color: #aad8d7cc;
   border-radius: 120px;
   height: 112px;
   width: 513px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 .location4 {
   padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-right: 30px;
   background-color: #8bc0bdcc;
   border-radius: 120px;
   height: 112px;
   width: 513px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 
 .location5 {
   padding-left: 30px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-right: 30px;
   background-color: #97cce0cc;
   border-radius: 120px;
   height: 112px;
   width: 513px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
 .location2text1 {
   font-size: 24px;
@@ -442,8 +437,6 @@ header {
   border-radius: 120px;
   align-items: center;
   flex-direction: column;
-  margin-left: 400px;
-  margin-bottom: 30px;
 }
 
 .day2 {
@@ -457,9 +450,8 @@ header {
   border-radius: 120px;
   align-items: center;
   flex-direction: column;
-  margin-left: 400px;
-  margin-bottom: 30px;
 }
+
 .day3 {
   font-size: 14;
   font-family: "Inter";
@@ -471,8 +463,6 @@ header {
   border-radius: 120px;
   align-items: center;
   flex-direction: column;
-  margin-left: 400px;
-  margin-bottom: 30px;
 }
 .day4 {
   font-size: 14;
@@ -485,8 +475,6 @@ header {
   border-radius: 120px;
   align-items: center;
   flex-direction: column;
-  margin-left: 400px;
-  margin-bottom: 30px;
 }
 .day5 {
   font-size: 14;
@@ -499,17 +487,14 @@ header {
   border-radius: 120px;
   align-items: center;
   flex-direction: column;
-  margin-left: 400px;
-  margin-bottom: 30px;
 }
 
 #back {
-  background-image: url(/pine/pine/back.png);
+  background-image: url(/Price&Footer\ image.png);
   display: flex;
   align-items: center;
   width: 1442px;
   height: 1120px;
-  border: 1px solid red;
   background-size: cover;
   flex-direction: column;
 }
@@ -517,8 +502,244 @@ header {
 .garchig2 {
   display: flex;
   justify-content: end;
-  height: 204px;
-  border: 1px solid red;
+  height: 104px;
   flex-direction: column;
   gap: 10px;
+  margin-top: 0px;
+}
+.backtext {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 51px;
+  font-weight: 600;
+  font-size: 42px;
+  font-family: "Inter";
+  color: #000000;
+}
+.backtext2 {
+  display: flex;
+  justify-content: center;
+  width: 1440px;
+  height: 24px;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Inter";
+  color: #18181bb2;
+}
+.karts {
+  width: 1200px;
+  height: 527px;
+  display: flex;
+  justify-content: center;
+  margin-top: 54px;
+  flex-direction: row;
+  gap: 20px;
+}
+.kart1 {
+  position: absolute;
+  background-color: white;
+  border-radius: 40px;
+  width: 384px;
+  height: 527px;
+}
+.border1 {
+  width: 340px;
+  height: 92px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+.border2 {
+  width: 384px;
+  height: 435px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+}
+.border3 {
+  border: 1px solid green;
+  width: 336px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.kartian1:hover .kart1 {
+  opacity: 1;
+}
+
+.kartian1:hover {
+  border: solid;
+  border-color: white;
+}
+
+.heart {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dollartext {
+  width: 336px;
+  height: 49px;
+  color: #303030;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: "Montserrat";
+  text-shadow: 0px 4px 4.9px #000000a6;
+}
+.dollartext2 {
+  width: 336px;
+  height: 19px;
+  margin: 10px;
+  color: #919191;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Inter";
+}
+.Includestext {
+  width: 256px;
+  height: 22px;
+  color: #121316;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Inter";
+  justify-content: center;
+  gap: 10px;
+  margin-top: 54px;
+}
+
+.kart2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 40px;
+  padding: 32px 24px;
+  background-color: white;
+  height: 520 px;
+  width: 384px;
+  justify-content: space-between;
+}
+
+.Select {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a4d1e2;
+  border-radius: 120px;
+}
+.kart2Detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.check {
+  height: 20px;
+  width: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.Includestext2 {
+  width: 256px;
+  height: 22px;
+  color: #3f4145;
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Inter";
+}
+.kart3 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 40px;
+  padding: 32px 24px;
+  background-color: white;
+  height: 520px;
+  width: 384px;
+  justify-content: space-between;
+}
+
+.kart4 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 40px;
+  padding: 32px 24px;
+  background-color: white;
+  height: 520px;
+  width: 384px;
+  justify-content: space-between;
+}
+.Select2 {
+  width: 91px;
+  height: 27px;
+  border-radius: 120px;
+  background-color: #6972b5;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.kart4:hover {
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+
+.kart4:hover .Select {
+  background-color: black;
+  color: white;
+}
+.kart2:hover {
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+
+.kart2:hover .Select {
+  background-color: black;
+  color: white;
+}
+.kart3:hover {
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+
+.kart3:hover .Select {
+  background-color: black;
+  color: white;
+}
+.facebook {
+  width: 93px;
+  height: 22px;
+  border-radius: 40px;
+  background-color: white;
+}
+.instagram {
+  width: 93px;
+  height: 22px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+footer {
+  background-color: #9fc6de;
+}
+
+.foooterIcon {
+  height: 14px;
+  width: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
