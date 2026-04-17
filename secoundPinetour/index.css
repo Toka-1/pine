@@ -7,6 +7,7 @@
 }
 
 body {
+  background: linear-gradient(180deg, #83b5d3 0%, #d7e4eb 49.04%);
   width: 1440px;
   margin: 0 auto;
   padding: 0;
@@ -21,7 +22,7 @@ body {
 }
 
 #hero {
-  background-image: url("/pine/pine/11.png");
+  background-image: url("/images/11.png");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,7 +35,6 @@ header {
   top: 30px;
   width: 1440px;
   padding: 0 118px;
-  background-image: url(11.png);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -114,7 +114,7 @@ header {
   margin: 0;
 }
 #journey {
-  background-image: url(/background2.png);
+  background-image: url("/images/background2.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1440px;
@@ -150,7 +150,7 @@ header {
   filter: brightness(0.8);
 }
 .card {
-  background-image: url(/pine/pine/1.png);
+  background-image: url("/images/1.png");
   height: 370px;
   width: 275px;
   border-radius: 40px;
@@ -164,7 +164,7 @@ header {
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 .card1 {
-  background-image: url(/pine/pine/2.png);
+  background-image: url("/images/2.png");
   height: 370px;
   width: 275px;
   border-radius: 40px;
@@ -177,7 +177,7 @@ header {
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 .card2 {
-  background-image: url(/pine/pine/3.png);
+  background-image: url("/images/3.png");
   height: 370px;
   width: 275px;
   border-radius: 40px;
@@ -190,7 +190,7 @@ header {
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 .card3 {
-  background-image: url(/pine/pine/4.png);
+  background-image: url("/images/4.png");
   height: 370px;
   width: 275px;
   border-radius: 40px;
@@ -203,7 +203,7 @@ header {
     8px 8px 0px 0px rgba(41, 114, 139, 0.25);
 }
 #map {
-  background-image: url(/pine/pine/Roadmap\ image.png);
+  background-image: url("/images/RoadmapBG.png");
   display: flex;
   align-items: center;
   width: 1440px;
@@ -244,16 +244,24 @@ header {
   gap: 20px;
   padding-right: 800px;
   padding-top: 80px;
+  position: relative;
+  border: 1px solid red;
 }
 
 .loc1 {
   position: absolute;
-  left: 1200px;
-  top: 1600px;
-  opacity: 0;
+  left: 820px;
+  top: 65px;
+  display: none;
 }
 .location1:hover .loc1 {
-  opacity: 1;
+  display: block;
+}
+.location1 > img {
+  width: 235.34px;
+  height: 245px;
+  top: 65px;
+  left: 359px;
 }
 .location1:hover {
   border: solid;
@@ -262,12 +270,19 @@ header {
 
 .loc2 {
   position: absolute;
-  left: 1200px;
-  top: 1600px;
-  opacity: 0;
+  top: 184px;
+  left: 819px;
+
+  display: none;
 }
 .location2:hover .loc2 {
-  opacity: 1;
+  display: block;
+}
+.location2 > img {
+  width: 245, 34px;
+  height: 245px;
+  top: -46px;
+  left: 164px;
 }
 .location2:hover {
   border: solid;
@@ -276,12 +291,19 @@ header {
 
 .loc3 {
   position: absolute;
-  left: 1200px;
-  top: 1600px;
-  opacity: 0;
+  top: 200 px;
+  left: 703px;
+
+  display: none;
 }
 .location3:hover .loc3 {
-  opacity: 1;
+  display: block;
+}
+.location3 > img {
+  width: 245, 34px;
+  height: 245px;
+  top: 82px;
+  left: 30px;
 }
 .location3:hover {
   border: solid;
@@ -290,12 +312,18 @@ header {
 
 .loc4 {
   position: absolute;
-  left: 1200px;
-  top: 1600px;
-  opacity: 0;
+  left: 652px;
+  top: 60px;
+  display: none;
 }
 .location4:hover .loc4 {
-  opacity: 1;
+  display: block;
+}
+.location4 > img {
+  width: 245, 34px;
+  height: 245px;
+  top: -84px;
+  left: -21px;
 }
 .location4:hover {
   border: solid;
@@ -304,12 +332,16 @@ header {
 
 .loc5 {
   position: absolute;
-  left: 1200px;
-  top: 1600px;
-  opacity: 0;
+  left: 819px;
+  top: 50px;
+  display: none;
 }
 .location5:hover .loc5 {
-  opacity: 1;
+  display: block;
+}
+.location5 > img {
+  width: 245, 34px;
+  height: 245px;
 }
 .location5:hover {
   border: solid;
@@ -490,7 +522,7 @@ header {
 }
 
 #back {
-  background-image: url(/Price&Footer\ image.png);
+  background-image: url("/images/PriceBG.png");
   display: flex;
   align-items: center;
   width: 1442px;
@@ -505,7 +537,7 @@ header {
   height: 104px;
   flex-direction: column;
   gap: 10px;
-  margin-top: 0px;
+  margin-top: 50px;
 }
 .backtext {
   display: flex;
@@ -516,6 +548,7 @@ header {
   font-size: 42px;
   font-family: "Inter";
   color: #000000;
+  margin-top: 250px;
 }
 .backtext2 {
   display: flex;
@@ -532,7 +565,7 @@ header {
   height: 527px;
   display: flex;
   justify-content: center;
-  margin-top: 54px;
+  margin-top: 154px;
   flex-direction: row;
   gap: 20px;
 }
@@ -719,27 +752,44 @@ header {
   background-color: black;
   color: white;
 }
-.facebook {
-  width: 93px;
-  height: 22px;
-  border-radius: 40px;
-  background-color: white;
-}
-.instagram {
-  width: 93px;
-  height: 22px;
-  border-radius: 40px;
-  background-color: white;
-}
-
-footer {
-  background-color: #9fc6de;
-}
-
-.foooterIcon {
-  height: 14px;
-  width: 14px;
+.social {
+  width: 171px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
+  border-radius: 40px;
+  background-color: white;
+  font-family: "Montserrat";
+  color: #6972b5;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.footer {
+  background-color: #9fc6de;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px;
+  width: 100%;
+}
+
+.footerIcon {
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+.logopng {
+  width: 101px;
+  height: 35px;
+  margin: left auto;
 }
